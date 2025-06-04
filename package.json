@@ -1,0 +1,28 @@
+{
+  "name": "project-graph-parser",
+  "version": "1.0.0",
+  "description": "JSON file parser CLI tool",
+  "main": "dist/index.js",
+  "bin": {
+    "project-graph-parser": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "debug": "ts-node --files src/cli.ts"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module"
+}

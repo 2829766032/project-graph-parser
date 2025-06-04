@@ -1,0 +1,4 @@
+{
+    "editor.formatOnSave": true, // 保存时自动格式化
+    "editor.tabSize": 2, // tab缩进大小
+}

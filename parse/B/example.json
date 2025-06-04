@@ -1,0 +1,2003 @@
+{
+  "version": 17,
+  "entities": [
+    {
+      "location": [
+        -4418.335873840252,
+        -3096.7465526230203
+      ],
+      "size": [
+        92.375,
+        124
+      ],
+      "text": "root\n初遇",
+      "uuid": "ee7abc0b-6265-45ae-b964-60c2956a2c4f",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -3797.4253912654744,
+        -3131.4444302031875
+      ],
+      "size": [
+        202.21875,
+        172
+      ],
+      "text": "text\n虚弱的声音\n救...救...救命",
+      "uuid": "97f6d130-8309-4841-b5e1-8245bd7dfaec",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -3959.047775701324,
+        -3331.9431371399082
+      ],
+      "size": [
+        224.6875,
+        124
+      ],
+      "text": "role\nid:虚弱的声音",
+      "uuid": "35b95971-3017-4048-911b-123ce015f2db",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -4229.4106842581505,
+        -3129.88766830416
+      ],
+      "size": [
+        325.015625,
+        172
+      ],
+      "text": "text\n旁白先生\n你从xxx醒来,走在xxx",
+      "uuid": "982579a1-17d4-426f-89d7-2ff97d98b305",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -3627.457140828936,
+        -3323.7982448267026
+      ],
+      "size": [
+        192.6875,
+        124
+      ],
+      "text": "role\nid:旁白先生",
+      "uuid": "ee6c00c6-64c1-4b18-970c-1f33ca58e93d",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -3500.0173228683193,
+        -3104.0228830409387
+      ],
+      "size": [
+        156,
+        124
+      ],
+      "text": "btn\n谁在说话",
+      "uuid": "b4fcf490-9788-4eb3-9c16-4d91f7cac2c9",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -3257.710029464734,
+        -3134.119844397501
+      ],
+      "size": [
+        188,
+        172
+      ],
+      "text": "text\n虚弱的声音\n救我",
+      "uuid": "35bba0cf-e2e7-4122-a8de-6dd09b4d7bf5",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2930.302232372932,
+        -3136.8087574374676
+      ],
+      "size": [
+        284,
+        172
+      ],
+      "text": "text\n旁白先生\n你向声音来源走去",
+      "uuid": "83a09841-d661-478e-b3bc-0c9170c65c05",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2465.03404595774,
+        -3105.530209152831
+      ],
+      "size": [
+        168.75,
+        124
+      ],
+      "text": "zhao-cha\n1",
+      "uuid": "061ebf5b-5a50-4a5d-afbe-cb479d6d649d",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2026.187203184135,
+        -3058.739986372684
+      ],
+      "size": [
+        94.625,
+        76
+      ],
+      "text": "succ",
+      "uuid": "4ca29fc9-1ac1-4bef-ba37-5615d5b7bc08",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2216.161848334446,
+        -2795.7568867222076
+      ],
+      "size": [
+        73.8125,
+        76
+      ],
+      "text": "fail",
+      "uuid": "c336f597-9438-4296-9afa-f28f165e6fa5",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2340.1636367064298,
+        -2661.376245351643
+      ],
+      "size": [
+        188,
+        172
+      ],
+      "text": "text\n虚弱的声音\n救我",
+      "uuid": "0be4807d-f159-4714-854d-fdb49e0796b3",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -3303.6407137419546,
+        -3324.4479461416377
+      ],
+      "size": [
+        128.6875,
+        124
+      ],
+      "text": "role\nid:茬茬",
+      "uuid": "52ac11ab-2026-4427-b005-64311f47031f",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2084.570673732585,
+        -2481.1933227246122
+      ],
+      "size": [
+        267.40625,
+        172
+      ],
+      "text": "text\n茬茬\n谢谢你,我叫茬茬.",
+      "uuid": "76fbe66c-f655-4399-911a-c1748716fb61",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2020.9069550422137,
+        -1275.4360344993693
+      ],
+      "size": [
+        188,
+        172
+      ],
+      "text": "text\n旁白先生\n一个岔路口",
+      "uuid": "2145c5a8-ad4c-4098-839f-bd4defa603ef",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2266.8085521510775,
+        -1025.4261908247145
+      ],
+      "size": [
+        156,
+        124
+      ],
+      "text": "btn\n清幽小路",
+      "uuid": "43e4a931-de9e-4866-bd5e-c0ea49999ad1",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1901.226511068789,
+        -1022.9588826578984
+      ],
+      "size": [
+        156,
+        124
+      ],
+      "text": "btn\n茂密丛林",
+      "uuid": "30599d7c-216e-4b1f-bb50-159cf992e0a8",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1538.89614283507,
+        -1019.8920688350345
+      ],
+      "size": [
+        156,
+        124
+      ],
+      "text": "btn\n未知黑洞",
+      "uuid": "9668282e-bf73-414a-aa61-eb99e22b3b59",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2361.8330816182015,
+        -745.0690876868421
+      ],
+      "size": [
+        252,
+        172
+      ],
+      "text": "text\n旁白先生\n清幽小路的描述",
+      "uuid": "9f5fc559-6573-4a86-9576-575c7012e9f7",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2278.3772075270144,
+        -421.70176558299136
+      ],
+      "size": [
+        92,
+        124
+      ],
+      "text": "btn\n前进",
+      "uuid": "4e034fb7-367d-4541-8a34-bb5714d4bb2b",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2558.4913457586354,
+        -410.0383064165726
+      ],
+      "size": [
+        92,
+        124
+      ],
+      "text": "btn\n返回",
+      "uuid": "1421c23d-5632-4220-b6a5-718ecfa9e0ec",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1948.715100824491,
+        -736.3585329750449
+      ],
+      "size": [
+        252,
+        172
+      ],
+      "text": "text\n旁白先生\n茂密丛林的描述",
+      "uuid": "418f036b-3921-49e6-bae9-25aa9efa1dda",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1769.557396466269,
+        -428.00512787651496
+      ],
+      "size": [
+        92,
+        124
+      ],
+      "text": "btn\n前进",
+      "uuid": "00a064c1-0614-4a56-afdf-9c9407ab046f",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2031.8771892925838,
+        -433.402757872901
+      ],
+      "size": [
+        92,
+        124
+      ],
+      "text": "btn\n返回",
+      "uuid": "73001177-c31f-4e1b-9bf0-3b03d4d66806",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1571.2169513056156,
+        -768.4335391432542
+      ],
+      "size": [
+        220,
+        172
+      ],
+      "text": "text\n旁白先生\n跳过新手教程",
+      "uuid": "658c7f02-61df-4e91-9096-669927c901e5",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1331.7935109216228,
+        -410.52390270443357
+      ],
+      "size": [
+        92,
+        124
+      ],
+      "text": "btn\n前进",
+      "uuid": "3a97440f-318f-4082-91f6-38463cce189d",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1540.882864101367,
+        -438.3373742066251
+      ],
+      "size": [
+        92,
+        124
+      ],
+      "text": "btn\n返回",
+      "uuid": "899207d5-7b1a-499f-89dc-870c0912196f",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2283.499349192094,
+        -157.11580942170258
+      ],
+      "size": [
+        168.75,
+        124
+      ],
+      "text": "zhao-cha\n2",
+      "uuid": "fa27b672-05f3-4810-b9b3-965d847144b2",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2075.4249769366193,
+        82.798824444405
+      ],
+      "size": [
+        94.625,
+        76
+      ],
+      "text": "succ",
+      "uuid": "dcb0280b-30c4-4eab-87ae-4e2fa2b9f54b",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2354.1589684808505,
+        66.79744224682781
+      ],
+      "size": [
+        73.8125,
+        76
+      ],
+      "text": "fail",
+      "uuid": "fb90781a-0c5b-42d0-8c1c-78b341f829e5",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2662.074359692303,
+        227.9778046176134
+      ],
+      "size": [
+        252,
+        172
+      ],
+      "text": "text\n旁白先生\n让我们再来一次",
+      "uuid": "9465830c-b843-4936-a085-c602d907232a",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1831.695781969866,
+        180.18307085139986
+      ],
+      "size": [
+        161.203125,
+        172
+      ],
+      "text": "event\nget_item\n101:1",
+      "uuid": "85c65e0e-d313-40c7-8046-b37dbcbb4de7",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1315.2421191973945,
+        -184.1054226076385
+      ],
+      "size": [
+        86.34375,
+        76
+      ],
+      "text": "end",
+      "uuid": "ba569037-8b6c-4b8d-8562-9cd8e800c2f5",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1809.0122568789502,
+        491.3749803254932
+      ],
+      "size": [
+        124,
+        172
+      ],
+      "text": "text\n茬茬\n我饿了",
+      "uuid": "d75fca09-3d5a-49d5-9a2e-39949340bb17",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1871.6176326827172,
+        756.7572178867094
+      ],
+      "size": [
+        254.265625,
+        172
+      ],
+      "text": "event\ntutorial\ntype:'pet-food'",
+      "uuid": "c98d7a3f-39cd-4a90-8105-c94441741c91",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2198.89920959255,
+        -2185.3275965813464
+      ],
+      "size": [
+        451.703125,
+        172
+      ],
+      "text": "text\n茬茬\n救命之恩无以回报,愿意跟随你",
+      "uuid": "b9ab2f05-3e22-449b-99c3-79c4b18a64fe",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2032.2913051668484,
+        -1920.1127735876717
+      ],
+      "size": [
+        143.40625,
+        172
+      ],
+      "text": "event\nget_pet\npetId:1",
+      "uuid": "529b21a5-70a3-415f-a18f-32407da7f8b3",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2037.2233549247853,
+        -1643.145001153026
+      ],
+      "size": [
+        204.640625,
+        172
+      ],
+      "text": "event\nchange_pet\npetId:1",
+      "uuid": "03ea01e3-8585-44c8-9908-0e728140d8a7",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1827.6362520707435,
+        1244.3509469107212
+      ],
+      "size": [
+        168.75,
+        124
+      ],
+      "text": "zhao-cha\n3",
+      "uuid": "8295e8c8-ccd0-436c-9e17-d5fb44d7813f",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1538.2562712335666,
+        1485.0806648822463
+      ],
+      "size": [
+        94.625,
+        76
+      ],
+      "text": "succ",
+      "uuid": "6a92f8a9-f42e-4250-9501-f7b2bf558d5f",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2036.3942875747402,
+        1486.9091668740102
+      ],
+      "size": [
+        73.8125,
+        76
+      ],
+      "text": "fail",
+      "uuid": "f28679c3-4e31-4351-a500-c5c81dadb8fe",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1872.2256148471579,
+        983.5764945939982
+      ],
+      "size": [
+        252,
+        172
+      ],
+      "text": "text\n茬茬\n发现一处新地点",
+      "uuid": "ba68321a-bc46-40e1-aa9f-2ffc080f2d95",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -1877.2739667076107,
+        1734.3962656552585
+      ],
+      "size": [
+        161.203125,
+        172
+      ],
+      "text": "event\nget_item\n301:2",
+      "uuid": "f7a60be9-84e3-4a83-abfb-d9b81de2cedb",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2241.2655341679283,
+        1728.4064483446864
+      ],
+      "size": [
+        209.8125,
+        172
+      ],
+      "text": "event\ntutorial\ntype:'board'",
+      "uuid": "37a20362-f6ba-4510-bb36-a0eda727f5a3",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -2756.8809789627644,
+        1735.1467852294381
+      ],
+      "size": [
+        92,
+        172
+      ],
+      "text": "text\n茬茬\n结束",
+      "uuid": "be22ca92-e380-4a7a-a153-6c2dec73b7db",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    },
+    {
+      "location": [
+        -3069.959723679929,
+        1764.941323590946
+      ],
+      "size": [
+        86.34375,
+        76
+      ],
+      "text": "end",
+      "uuid": "efaa5bf6-d35b-4c6a-9760-3029e0a86c71",
+      "details": "",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "core:text_node",
+      "sizeAdjust": "auto"
+    }
+  ],
+  "associations": [
+    {
+      "source": "ee7abc0b-6265-45ae-b964-60c2956a2c4f",
+      "target": "982579a1-17d4-426f-89d7-2ff97d98b305",
+      "text": "",
+      "uuid": "b67d6feb-c7c0-4849-909e-51164783835d",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.99,
+        0.5
+      ],
+      "targetRectRate": [
+        0.01,
+        0.5
+      ]
+    },
+    {
+      "source": "982579a1-17d4-426f-89d7-2ff97d98b305",
+      "target": "97f6d130-8309-4841-b5e1-8245bd7dfaec",
+      "text": "",
+      "uuid": "8a5b8ac3-e3a9-4350-b5c5-870b0786ab8c",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.99,
+        0.5
+      ],
+      "targetRectRate": [
+        0.01,
+        0.5
+      ]
+    },
+    {
+      "source": "97f6d130-8309-4841-b5e1-8245bd7dfaec",
+      "target": "b4fcf490-9788-4eb3-9c16-4d91f7cac2c9",
+      "text": "",
+      "uuid": "0dcbb0cb-835a-4ff2-b1ff-569def5df5bb",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "b4fcf490-9788-4eb3-9c16-4d91f7cac2c9",
+      "target": "35bba0cf-e2e7-4122-a8de-6dd09b4d7bf5",
+      "text": "",
+      "uuid": "9635fda7-324c-400a-a4aa-9648ef493577",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.99,
+        0.5
+      ],
+      "targetRectRate": [
+        0.01,
+        0.5
+      ]
+    },
+    {
+      "source": "35bba0cf-e2e7-4122-a8de-6dd09b4d7bf5",
+      "target": "83a09841-d661-478e-b3bc-0c9170c65c05",
+      "text": "",
+      "uuid": "2f102235-fc1a-43be-8cdc-914f29f7a434",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.99,
+        0.5
+      ],
+      "targetRectRate": [
+        0.01,
+        0.5
+      ]
+    },
+    {
+      "source": "83a09841-d661-478e-b3bc-0c9170c65c05",
+      "target": "061ebf5b-5a50-4a5d-afbe-cb479d6d649d",
+      "text": "",
+      "uuid": "79c66b60-959b-4122-95e1-85dd00bfb6ff",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "061ebf5b-5a50-4a5d-afbe-cb479d6d649d",
+      "target": "4ca29fc9-1ac1-4bef-ba37-5615d5b7bc08",
+      "text": "",
+      "uuid": "1df8433e-ef1e-4a99-b5ce-e1585dd7c65e",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "061ebf5b-5a50-4a5d-afbe-cb479d6d649d",
+      "target": "c336f597-9438-4296-9afa-f28f165e6fa5",
+      "text": "",
+      "uuid": "d21b3a8d-b2d8-46e9-8f15-5565c12e88a8",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "c336f597-9438-4296-9afa-f28f165e6fa5",
+      "target": "0be4807d-f159-4714-854d-fdb49e0796b3",
+      "text": "",
+      "uuid": "58e8cd52-3fa7-4deb-9f5b-2b364a37257b",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "0be4807d-f159-4714-854d-fdb49e0796b3",
+      "target": "061ebf5b-5a50-4a5d-afbe-cb479d6d649d",
+      "text": "",
+      "uuid": "95035a90-76b9-4ab9-b66c-859bca8f9d18",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.01,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.99
+      ]
+    },
+    {
+      "source": "4ca29fc9-1ac1-4bef-ba37-5615d5b7bc08",
+      "target": "76fbe66c-f655-4399-911a-c1748716fb61",
+      "text": "",
+      "uuid": "83277342-1c88-4a1a-b657-643499c1d18a",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "2145c5a8-ad4c-4098-839f-bd4defa603ef",
+      "target": "43e4a931-de9e-4866-bd5e-c0ea49999ad1",
+      "text": "",
+      "uuid": "e43a69ac-ec10-4322-93de-e74b78612bf0",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.01,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "2145c5a8-ad4c-4098-839f-bd4defa603ef",
+      "target": "30599d7c-216e-4b1f-bb50-159cf992e0a8",
+      "text": "",
+      "uuid": "bb611fe9-27c5-4adc-9714-26c3ff540ff3",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.99
+      ]
+    },
+    {
+      "source": "2145c5a8-ad4c-4098-839f-bd4defa603ef",
+      "target": "9668282e-bf73-414a-aa61-eb99e22b3b59",
+      "text": "",
+      "uuid": "bd0ae336-847b-470b-8a10-0f5b78d8e8c3",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.99,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "43e4a931-de9e-4866-bd5e-c0ea49999ad1",
+      "target": "9f5fc559-6573-4a86-9576-575c7012e9f7",
+      "text": "",
+      "uuid": "6e3e90a5-e0f0-4bfb-bd89-5658bf4bf565",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "9f5fc559-6573-4a86-9576-575c7012e9f7",
+      "target": "4e034fb7-367d-4541-8a34-bb5714d4bb2b",
+      "text": "",
+      "uuid": "66516a30-5714-4f15-a881-bd0f0c579a91",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "9f5fc559-6573-4a86-9576-575c7012e9f7",
+      "target": "1421c23d-5632-4220-b6a5-718ecfa9e0ec",
+      "text": "",
+      "uuid": "17221a53-8cfb-4696-aa43-73184758ec94",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "1421c23d-5632-4220-b6a5-718ecfa9e0ec",
+      "target": "2145c5a8-ad4c-4098-839f-bd4defa603ef",
+      "text": "",
+      "uuid": "944c3013-15f6-4bef-b7ec-a3f483e5b613",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.01
+      ],
+      "targetRectRate": [
+        0.01,
+        0.5
+      ]
+    },
+    {
+      "source": "418f036b-3921-49e6-bae9-25aa9efa1dda",
+      "target": "00a064c1-0614-4a56-afdf-9c9407ab046f",
+      "text": "",
+      "uuid": "7a5eab81-1c27-4755-b914-cdb55afcd425",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "418f036b-3921-49e6-bae9-25aa9efa1dda",
+      "target": "73001177-c31f-4e1b-9bf0-3b03d4d66806",
+      "text": "",
+      "uuid": "f119ea07-2dce-4c2c-b980-e398a92a99f4",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "658c7f02-61df-4e91-9096-669927c901e5",
+      "target": "3a97440f-318f-4082-91f6-38463cce189d",
+      "text": "",
+      "uuid": "fde1bb03-4328-4982-98a6-2fb3b8041eb3",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "658c7f02-61df-4e91-9096-669927c901e5",
+      "target": "899207d5-7b1a-499f-89dc-870c0912196f",
+      "text": "",
+      "uuid": "56d68bec-c6a2-499d-8666-9391808b7750",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "30599d7c-216e-4b1f-bb50-159cf992e0a8",
+      "target": "418f036b-3921-49e6-bae9-25aa9efa1dda",
+      "text": "",
+      "uuid": "75d5378f-084c-4562-8afc-ef87718fabf1",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "73001177-c31f-4e1b-9bf0-3b03d4d66806",
+      "target": "2145c5a8-ad4c-4098-839f-bd4defa603ef",
+      "text": "",
+      "uuid": "689ec7c7-c209-43ec-a91b-b2ef686d263b",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.01,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.99
+      ]
+    },
+    {
+      "source": "899207d5-7b1a-499f-89dc-870c0912196f",
+      "target": "2145c5a8-ad4c-4098-839f-bd4defa603ef",
+      "text": "",
+      "uuid": "3f3384c6-1616-4e22-8e27-34b5824a230e",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.01,
+        0.5
+      ],
+      "targetRectRate": [
+        0.99,
+        0.5
+      ]
+    },
+    {
+      "source": "9668282e-bf73-414a-aa61-eb99e22b3b59",
+      "target": "658c7f02-61df-4e91-9096-669927c901e5",
+      "text": "",
+      "uuid": "46eeb445-c1cd-43b2-b49c-41884f4bb3b5",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "4e034fb7-367d-4541-8a34-bb5714d4bb2b",
+      "target": "fa27b672-05f3-4810-b9b3-965d847144b2",
+      "text": "",
+      "uuid": "dd9495b6-e04c-45d6-9503-b507591a390a",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "fa27b672-05f3-4810-b9b3-965d847144b2",
+      "target": "fb90781a-0c5b-42d0-8c1c-78b341f829e5",
+      "text": "",
+      "uuid": "4edf43f4-19f1-4f4c-b295-504b98db2819",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "fa27b672-05f3-4810-b9b3-965d847144b2",
+      "target": "dcb0280b-30c4-4eab-87ae-4e2fa2b9f54b",
+      "text": "",
+      "uuid": "a0d596ec-8334-46f1-bfdc-727cadeca875",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "fb90781a-0c5b-42d0-8c1c-78b341f829e5",
+      "target": "9465830c-b843-4936-a085-c602d907232a",
+      "text": "",
+      "uuid": "65b935fa-3635-48d3-b96e-7455914fd03b",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "9465830c-b843-4936-a085-c602d907232a",
+      "target": "fa27b672-05f3-4810-b9b3-965d847144b2",
+      "text": "",
+      "uuid": "4c0a0e0a-398a-434b-8247-29c76c92e293",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.01
+      ],
+      "targetRectRate": [
+        0.01,
+        0.5
+      ]
+    },
+    {
+      "source": "3a97440f-318f-4082-91f6-38463cce189d",
+      "target": "ba569037-8b6c-4b8d-8562-9cd8e800c2f5",
+      "text": "",
+      "uuid": "53a73daf-e103-4c04-a3dd-0da3a2e5c948",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "85c65e0e-d313-40c7-8046-b37dbcbb4de7",
+      "target": "d75fca09-3d5a-49d5-9a2e-39949340bb17",
+      "text": "",
+      "uuid": "3739b48f-70e8-455b-a31b-87931d68d47b",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "d75fca09-3d5a-49d5-9a2e-39949340bb17",
+      "target": "c98d7a3f-39cd-4a90-8105-c94441741c91",
+      "text": "",
+      "uuid": "82c7cd23-e0b1-4df0-a786-e9b96c2dc023",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "b9ab2f05-3e22-449b-99c3-79c4b18a64fe",
+      "target": "529b21a5-70a3-415f-a18f-32407da7f8b3",
+      "text": "",
+      "uuid": "869c77a5-951c-45a0-9315-c2101b5a4411",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": "529b21a5-70a3-415f-a18f-32407da7f8b3",
+      "target": "03ea01e3-8585-44c8-9908-0e728140d8a7",
+      "text": "",
+      "uuid": "812063c2-5944-4dc1-ae96-87ec71e5fe42",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.99,
+        0.5
+      ],
+      "targetRectRate": [
+        0.01,
+        0.5
+      ]
+    },
+    {
+      "source": "76fbe66c-f655-4399-911a-c1748716fb61",
+      "target": "b9ab2f05-3e22-449b-99c3-79c4b18a64fe",
+      "text": "",
+      "uuid": "68177f2e-e29c-4bbe-ab36-856aed84e661",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "03ea01e3-8585-44c8-9908-0e728140d8a7",
+      "target": "2145c5a8-ad4c-4098-839f-bd4defa603ef",
+      "text": "",
+      "uuid": "a7e77805-ec97-415e-b9ee-3beffad87c73",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "dcb0280b-30c4-4eab-87ae-4e2fa2b9f54b",
+      "target": "85c65e0e-d313-40c7-8046-b37dbcbb4de7",
+      "text": "",
+      "uuid": "a339b467-f4e3-4f1c-b7f1-a505c1d0d591",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.99,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "00a064c1-0614-4a56-afdf-9c9407ab046f",
+      "target": "85c65e0e-d313-40c7-8046-b37dbcbb4de7",
+      "text": "",
+      "uuid": "8216faef-6a5e-4b9c-af4a-d174b266fd54",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.99
+      ]
+    },
+    {
+      "source": "8295e8c8-ccd0-436c-9e17-d5fb44d7813f",
+      "target": "f28679c3-4e31-4351-a500-c5c81dadb8fe",
+      "text": "",
+      "uuid": "6bceae38-fee5-4da7-96a6-d4f8aa40f423",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.99,
+        0.5
+      ]
+    },
+    {
+      "source": "8295e8c8-ccd0-436c-9e17-d5fb44d7813f",
+      "target": "6a92f8a9-f42e-4250-9501-f7b2bf558d5f",
+      "text": "",
+      "uuid": "691b2fff-f736-4707-b757-bd4df0f7686d",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.01,
+        0.5
+      ]
+    },
+    {
+      "source": "c98d7a3f-39cd-4a90-8105-c94441741c91",
+      "target": "ba68321a-bc46-40e1-aa9f-2ffc080f2d95",
+      "text": "",
+      "uuid": "db54ad6e-b665-4293-a201-1bf2e58dca48",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.01
+      ]
+    },
+    {
+      "source": "ba68321a-bc46-40e1-aa9f-2ffc080f2d95",
+      "target": "8295e8c8-ccd0-436c-9e17-d5fb44d7813f",
+      "text": "",
+      "uuid": "7ee5a12a-1fe4-4e38-9833-0c6764f6497a",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.5,
+        0.99
+      ]
+    },
+    {
+      "source": "f28679c3-4e31-4351-a500-c5c81dadb8fe",
+      "target": "ba68321a-bc46-40e1-aa9f-2ffc080f2d95",
+      "text": "",
+      "uuid": "64e1d670-8842-4614-b03b-5b425d3adf58",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.01
+      ],
+      "targetRectRate": [
+        0.01,
+        0.5
+      ]
+    },
+    {
+      "source": "6a92f8a9-f42e-4250-9501-f7b2bf558d5f",
+      "target": "f7a60be9-84e3-4a83-abfb-d9b81de2cedb",
+      "text": "",
+      "uuid": "1a85c555-1c46-404c-b788-cac5f2431d18",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.99
+      ],
+      "targetRectRate": [
+        0.99,
+        0.5
+      ]
+    },
+    {
+      "source": "f7a60be9-84e3-4a83-abfb-d9b81de2cedb",
+      "target": "37a20362-f6ba-4510-bb36-a0eda727f5a3",
+      "text": "",
+      "uuid": "b8af9a4a-3255-4ce7-a0d8-01e4ecdcc4eb",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.01,
+        0.5
+      ],
+      "targetRectRate": [
+        0.99,
+        0.5
+      ]
+    },
+    {
+      "source": "37a20362-f6ba-4510-bb36-a0eda727f5a3",
+      "target": "be22ca92-e380-4a7a-a153-6c2dec73b7db",
+      "text": "",
+      "uuid": "4434848b-3cd4-439b-b978-a863b08c3ee8",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.01,
+        0.5
+      ],
+      "targetRectRate": [
+        0.99,
+        0.5
+      ]
+    },
+    {
+      "source": "be22ca92-e380-4a7a-a153-6c2dec73b7db",
+      "target": "efaa5bf6-d35b-4c6a-9760-3029e0a86c71",
+      "text": "",
+      "uuid": "8a120ad8-d331-4eaa-940e-7c6a33345cde",
+      "type": "core:line_edge",
+      "color": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sourceRectRate": [
+        0.5,
+        0.5
+      ],
+      "targetRectRate": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "tags": []
+}
