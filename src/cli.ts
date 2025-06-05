@@ -22,40 +22,29 @@ program
 const NodeType = {
   none: 0,
   text: 1 << 0,
-  role: 1 << 1,
-  root: 1 << 2,
-  event: 1 << 3,
-  btn: 1 << 4,
-  version: 1 << 5,
-  end: 1 << 6,
-  zhao_cha: 1 << 7,
+  role: 1 << 1,//2
+  root: 1 << 2,//4
+  event: 1 << 3,//8
+  btn: 1 << 4,//16
+  version: 1 << 5,//32
+  end: 1 << 6,//64
+  'zhao-cha': 1 << 7,//128
   fail: 1 << 8,
   succ: 1 << 9,
-  get ROOT() { return NodeType.role },
-  get PROCESS() { return NodeType.text | NodeType.event | NodeType.btn | NodeType.end | NodeType.zhao_cha | NodeType.fail | NodeType.succ },
-  get ZHAOCHARESULT() { return NodeType.fail | NodeType.succ },
-}
-
-const NodeTypeMap = {
-  'root': {
-    input: {
-      type: NodeType.none,
-      num: 0
-    },
-    output: {
-      type: NodeType.PROCESS,
-      num: 1
-    }
+  isPROCESS(type) {
+    const PROCESS = NodeType.text | NodeType.event
+      | NodeType.btn | NodeType.end
+      | NodeType['zhao-cha'] | NodeType.fail
+      | NodeType.succ;
+    return Boolean(PROCESS | type)
   },
-  'role': {},
-  'event': {},
-  'btn': {},
-  'text': {},
-  'version': {},
-  'end': {},
-  'zhao-cha': {},
-  'fail': {},
-  'succ': {},
+  isROOT(type) {
+    return Boolean(NodeType.role | type)
+  },
+  isZHAOCHARESULT(type) {
+    const ZHAOCHARESULT = NodeType.fail | NodeType.succ
+    return Boolean(ZHAOCHARESULT | type)
+  },
 }
 
 // 主执行函数
@@ -152,18 +141,68 @@ async function yourCustomParser(data: any): Promise<any> {
   返回: 处理后的新 JSON 对象
   */
   let result = {
-    entities: {}
+    version: '0.0.0',
+    roles: {},
+    entities: {},
+    root: '',
   }
   for (const entity of data.entities) {
     if (entity.type != 'core:text_node') {
       throw `意外的实体类型: ${entity.type} ${JSON.stringify(entity)}`
     }
-    const type = entity.text.split('\n')[0];
-    if (NodeTypeMap[type] == undefined) {
+    const text = entity.text.split('\n') as string[]
+    const type = NodeType[text[0]];
+    if (type == undefined) {
       throw `意外的节点类型: ${type} ${JSON.stringify(entity)}`
     }
-    return data; // 示例直接返回原数据
+    if (type == NodeType.version) {
+      result.version = text[1]
+    } else if (type == NodeType.role) {
+      const info = {} as any
+      for (const item of text.slice(1)) {
+        const split = item.split(/[:：]/g);
+        if (split.length != 2) {
+          throw `role 节点参数错误: ${JSON.stringify(entity)}`
+        }
+        info[split[0]] = split[1];
+      }
+      if (info['id'] == undefined) {
+        throw `role 节点参数错误: ${JSON.stringify(entity)}`
+      }
+      result.roles[info['id']] = info;
+    } else if (NodeType.isPROCESS(type)) {
+      result.entities[entity.uuid] = {
+        type: type,
+        text: text.slice(1),
+        children: []
+      }
+      if (NodeType.isROOT(type)) {
+        result.root = entity.uuid;
+      }
+    } else {
+      throw `该节点类型未处理:${type}`
+    }
   }
+  // 子节点绑定
+  for (const edge of data.associations) {
+    const source = result.entities[edge.source];
+    if (source == undefined) {
+      throw `未找到节点uuid: ${edge.source}`
+    }
+    source.children.push(edge.target)
+  }
+  // 节点验证 待完成
+  for (const uuid in result.entities) {
+    const entity = result.entities[uuid]
+    if (NodeType.isROOT(entity.type)) {
+      if (entity.children.length !== 1) {
+        throw `root 节点验证失败`
+      }
+    } else if (NodeType.text == entity.type) {
+
+    }
+  }
+  return result;
 }
 // 错误处理函数
 function handleOperationError(context: string, error: unknown) {

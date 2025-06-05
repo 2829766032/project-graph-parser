@@ -7,7 +7,7 @@
       "name": "Debug CLI",
       "program": "${workspaceFolder}/src/cli.ts",
       "args": [
-        "${workspaceFolder}/parse/options.json"
+        "${workspaceFolder}/parser/options.json"
       ],
       "preLaunchTask": "npm: build",
       "outFiles": [
