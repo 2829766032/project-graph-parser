@@ -35,15 +35,15 @@ const NodeType = {
     const PROCESS = NodeType.text | NodeType.event
       | NodeType.btn | NodeType.end
       | NodeType['zhao-cha'] | NodeType.fail
-      | NodeType.succ;
-    return Boolean(PROCESS | type)
+      | NodeType.succ | NodeType.root;
+    return (PROCESS & type) == type;
   },
   isROOT(type) {
-    return Boolean(NodeType.role | type)
+    return (NodeType.root & type) == type;
   },
   isZHAOCHARESULT(type) {
     const ZHAOCHARESULT = NodeType.fail | NodeType.succ
-    return Boolean(ZHAOCHARESULT | type)
+    return (ZHAOCHARESULT & type) == type;
   },
 }
 
@@ -141,6 +141,7 @@ async function yourCustomParser(data: any): Promise<any> {
   返回: 处理后的新 JSON 对象
   */
   let result = {
+    name: '剧本',
     version: '0.0.0',
     roles: {},
     entities: {},
@@ -176,11 +177,12 @@ async function yourCustomParser(data: any): Promise<any> {
         text: text.slice(1),
         children: []
       }
-      if (NodeType.isROOT(type)) {
-        result.root = entity.uuid;
-      }
     } else {
       throw `该节点类型未处理:${type}`
+    }
+    if (NodeType.isROOT(type)) {
+      result.name = text[1] ?? result.name;
+      result.root = entity.uuid;
     }
   }
   // 子节点绑定
