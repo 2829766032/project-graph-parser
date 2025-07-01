@@ -59,9 +59,11 @@ async function executeParser(optionsPath: string) {
 
     // 处理每个输入目录
     for (const inputDir of options.input) {
+      const pathX = typeof inputDir === 'string' ? inputDir : inputDir.path;
+      const name = typeof inputDir === 'string' ? inputDir : inputDir.alias || pathX.split(/[\/\\]/).at(-1);
       await processInputDirectory(
-        path.join(optionsDir, inputDir),
-        path.join(optionsDir, options.output, inputDir)
+        path.join(optionsDir, pathX),
+        path.join(optionsDir, options.output, name)
       );
     }
 
@@ -72,7 +74,7 @@ async function executeParser(optionsPath: string) {
 }
 
 // 读取 options.json 文件
-async function readOptionsFile(filePath: string): Promise<{ input: string[]; output: string }> {
+async function readOptionsFile(filePath: string): Promise<{ input: ({ path: string, alias?: string } | string)[]; output: string }> {
   try {
     const data = await fs.readFile(filePath, 'utf8');
     return JSON.parse(data);
@@ -181,6 +183,9 @@ async function yourCustomParser(data: any): Promise<any> {
       throw `该节点类型未处理:${type}`
     }
     if (NodeType.isROOT(type)) {
+      if (result.root !== '') {
+        throw `root 节点重复`
+      }
       result.name = text[1] ?? result.name;
       result.root = entity.uuid;
     }
